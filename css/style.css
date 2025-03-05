@@ -3,9 +3,12 @@ body {
 }
 
 #page-wrapper {
+  width: 960px;
+  margin: 0 auto;
 }
 
 #header {
+  position: relative;
 }
 
 #header h1 {
@@ -21,6 +24,8 @@ body {
 }
 
 #content-wrapper {
+  background-image: url("../images/repeating.png");
+  float: left;
 }
 
 #main-content {
